@@ -1,0 +1,6 @@
+# CultivaTech · seguridad básica (Apache 2.4 / XAMPP)
+Options -Indexes
+
+<FilesMatch "\.(sql|md|htaccess|log)$">
+    Require all denied
+</FilesMatch>
